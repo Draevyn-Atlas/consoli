@@ -1,0 +1,47 @@
+.menubar_bottom {
+  /* border: 1px solid #000; */
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menubar_bottom_1 {
+  padding-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu_bottom_1--line {
+  margin-bottom: 20px;
+}
+
+.menu_bottom_1--line>h2 {
+  font-weight: normal;
+}
+
+.menu_bottom_1--buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.menu_bottom_1--buttons button {
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+
+  text-transform: capitalize;
+}
+
+.menu_bottom_1_button1 {}
+
+.menu_bottom_1_button2 {
+  background-color: black;
+  color: #ffff;
+}
