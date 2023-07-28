@@ -1,7 +1,6 @@
 import "./App.css";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
-import OurServices from "./components/OurServices";
 import Top from "./components/Top";
 import Medium from "./components/medium/Medium";
 

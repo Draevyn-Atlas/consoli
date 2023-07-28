@@ -4,6 +4,7 @@
   background-image: url("/Background-1\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .our_services__section {}
