@@ -1,0 +1,17 @@
+.our_services__div {
+  padding: 2rem 0rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_services__div>h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.our_services__div>img {
+  height: 25rem;
+}
