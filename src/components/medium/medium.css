@@ -1,0 +1,121 @@
+img {
+  width: 100%;
+}
+
+.business {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  padding: 10vh 10vw;
+
+  /* border: 5px solid gray; */
+  .business_headig {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 80vw;
+    /* border: 5px solid green; */
+    line-height: 2rem;
+    margin: auto;
+  }
+
+  .business_headig> :first-child {
+    /* background: #886c6c; */
+    width: 45vw;
+    text-align: end;
+  }
+
+  .business_headig> :last-child {
+    /* background: #886c6c; */
+    width: 36vw;
+    text-align: start;
+    margin-left: auto;
+  }
+
+  .business_subHeading {
+    width: 55vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.tech_meet_container {
+  background: #000;
+  color: whitesmoke;
+  padding: 10vh 20vw;
+  text-align: center;
+}
+
+.tech_meet_container p {
+  background: #000;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/* services cards */
+.services {
+  padding: 50px;
+}
+
+.services_cards {
+  /* border: 3px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+
+  .services_card {
+    /* border: 2px solid gray; */
+    position: relative;
+
+    .image {
+      width: 26vw;
+      margin: auto;
+      /* position: absolute; */
+    }
+
+    .services_text {
+      /* border: 2px solid green; */
+      width: 23vw;
+      position: absolute;
+      top: 70%;
+      left: 8%;
+      padding: 25px 20px;
+      margin: auto;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+
+    .services_text> :first-child {
+      /* border: 2px solid green; */
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .services_text> :last-child {
+      /* border: 2px solid green; */
+      font-size: 0.9rem;
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .business {
+    .business_headig :last-child {
+      width: 65vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .business {
+    .business_subHeading {
+      width: 80vw;
+    }
+  }
+}

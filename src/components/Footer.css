@@ -1,0 +1,105 @@
+.footer_main_container {
+  background: #000;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 30px 10px;
+}
+
+.border {
+  height: 2px;
+  background: gray;
+  margin-left: 30px;
+}
+
+.uper {
+  /* height: 180px;
+    width: 100%; */
+  background-color: black;
+  color: white;
+
+}
+
+/* .bottom{
+    height: 180px;
+    width: 100%;
+    background-color: black;
+} */
+.Footer :nth-child(1) {
+  width: 70%;
+}
+
+/* .Footer :nth-child(2){
+    width: 30%;
+} */
+.uper p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+
+.last_foot {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  padding-top: 15px;
+
+}
+
+hr {
+
+  width: 95%;
+  margin-left: 70px;
+}
+
+.right {
+  display: flex;
+}
+
+.last_foot :nth-child(1) {
+  width: 50%;
+}
+
+.last_foot :nth-child(2) {
+  width: 50%;
+
+}
+
+.left p {
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.right p {
+  line-height: 30px;
+}
+
+.shadow {
+  font-size: 13px;
+
+
+}
+
+.right :nth-child(3) p.shadow {
+  width: 200px;
+  display: flex;
+}
+
+.newsletter_button {
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background: white;
+  color: black;
+}

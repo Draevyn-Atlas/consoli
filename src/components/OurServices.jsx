@@ -6,7 +6,7 @@ const OurServices = () => {
   return (
     <div className="our_services__div">
       <h1>Our Services</h1>
-      <img src={service_logo} alt="our_services" />
+      <img id="our_services__img" src={service_logo} alt="our_services" />
     </div>
   );
 };

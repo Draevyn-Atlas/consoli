@@ -12,6 +12,7 @@
   font-size: 34px;
 }
 
-.our_services__div>img {
+#our_services__img {
   height: 25rem;
+  width: 25rem;
 }
