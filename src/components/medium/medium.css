@@ -21,9 +21,10 @@ img {
 
   .business_headig> :first-child {
     /* background: #886c6c; */
-    width: 45vw;
+    width: 44vw;
     margin-bottom: 20px;
     text-align: end;
+    font-size: 30px;
   }
 
   .business_headig> :last-child {
@@ -31,6 +32,7 @@ img {
     width: 36vw;
     text-align: start;
     margin-left: auto;
+    font-size: 30px;
   }
 
   .business_subHeading {
@@ -40,7 +42,7 @@ img {
     display: flex;
     flex-direction: column;
     row-gap: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 22px;
   }
 }
 
@@ -61,6 +63,8 @@ img {
 /* services cards */
 .services {
   padding: 50px;
+  margin-top: -80px;
+  margin-bottom: 30px;
 }
 
 .services_cards {
@@ -68,6 +72,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3rem;
+  margin-bottom: 50px;
 
   .services_card {
     /* border: 2px solid gray; */

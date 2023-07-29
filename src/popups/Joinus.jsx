@@ -21,7 +21,7 @@ const Joinus = ({ isOpen, onClose }) => {
           <ModalHeader>Join Our NewsLetter</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}></ModalBody>
-          <form className="form">
+          <form className="form" style={{marginTop:"-25px"}}>
             <div className="formGroup newsletter_email_div">
               <input
                 type="email"
