@@ -1,10 +1,10 @@
 import Menu from "./Menu";
 import MenuBottom from "./MenuBottom";
 
-const Top = () => {
+const Top = ({ onOpen }) => {
   return (
     <div>
-      <Menu />
+      <Menu onOpen={onOpen} />
       <MenuBottom />
     </div>
   );

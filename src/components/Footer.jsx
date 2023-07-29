@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer({ onOpen }) {
   return (
     <div className="footer_main_container">
       <div className="Footer">
@@ -12,7 +12,9 @@ function Footer() {
             honing in on the news that truly matters.
           </p>
         </div>
-        <button className="newsletter_button">Join Our newsleter</button>
+        <button className="newsletter_button" onClick={onOpen}>
+          Join Our newsleter
+        </button>
       </div>
       <div className="border"></div>
 
@@ -34,7 +36,9 @@ function Footer() {
           </div>
           <div>
             <p>Resources</p>
-            <p className="shadow">Join Our Newsleter</p>
+            <p className="shadow" onClick={onOpen}>
+              Join Our Newsleter
+            </p>
           </div>
         </div>
       </div>

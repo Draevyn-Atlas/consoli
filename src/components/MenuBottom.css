@@ -11,6 +11,7 @@
 .menubar_bottom_1 {
   padding-left: 40px;
 
+
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -39,7 +40,9 @@
   text-transform: capitalize;
 }
 
-.menu_bottom_1_button1 {}
+.menu_bottom_1_button1 {
+  border: 1px solid #000;
+}
 
 .menu_bottom_1_button2 {
   background-color: black;

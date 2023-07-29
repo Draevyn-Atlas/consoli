@@ -12,7 +12,11 @@ const MenuBottom = () => {
           <h2>Just like, M(AI)gic.</h2>
         </div>
         <div className="menu_bottom_1--buttons">
-          <button className="menu_bottom_1_button1">let's talk</button>
+          <button className="menu_bottom_1_button1">
+            <Link to="contact_us__form" smooth={true} duration={500}>
+              let's talk
+            </Link>
+          </button>
           <button className="menu_bottom_1_button2">
             <Link to="our_services__div" smooth={true} duration={500}>
               Our Services

@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import logo from "./../assets/Atlas 1.png";
 import "./Menu.css";
 
-const Menu = () => {
+const Menu = ({ onOpen }) => {
   return (
     <div className="top_section_menubar">
       <div className="top_section_menubar_1">
@@ -14,7 +14,7 @@ const Menu = () => {
             Our Services
           </Link>
         </button>
-        <button className="top_section_menubar_2_button2">
+        <button className="top_section_menubar_2_button2" onClick={onOpen}>
           Join our newsletter
         </button>
       </div>

@@ -3,11 +3,10 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
-    <form className="form">
+    <form className="form" id="contact_us__form">
       <div className="top">Get in Touch with Us</div>
       <div className="formGroup">
         <label className="label">Email*</label>
-
         <input type="email" className="input" name="email" required />
       </div>
       <div className="formGroup">
