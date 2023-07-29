@@ -1,5 +1,6 @@
 .top_hero__section {
   height: 100vh;
+  /* margin-top: 80px; */
 
   /* background-image: url("/Background-1\ 1.png"); */
   /* background: url("https://v.ftcdn.net/04/72/04/26/700_F_472042699_mG4yxMT57lbetcXIY7rjudcgfR181RVX_ST.mp4"); */
@@ -7,6 +8,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.medium_section {
+  margin-top: -150px;
 }
 
 .our_services__section {}
