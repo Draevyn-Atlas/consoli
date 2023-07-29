@@ -1,10 +1,12 @@
 .top_hero__section {
   height: 100vh;
 
-  background-image: url("/Background-1\ 1.png");
+  /* background-image: url("/Background-1\ 1.png"); */
+  /* background: url("https://v.ftcdn.net/04/72/04/26/700_F_472042699_mG4yxMT57lbetcXIY7rjudcgfR181RVX_ST.mp4"); */
+  background: url("/background_hero.gif");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
 }
 
 .our_services__section {}
@@ -15,4 +17,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
