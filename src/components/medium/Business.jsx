@@ -4,8 +4,8 @@ const Business = () => {
   return (
     <div className="business">
       <div className="business_headig">
-        <p>Business.</p>
-        <p>Supercharged.</p>
+        <h2>Business.</h2>
+        <h2>Supercharged.</h2>
       </div>
 
       <div className="business_subHeading">

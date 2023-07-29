@@ -28,7 +28,9 @@ function Footer() {
           </div>
           <div>
             <p>Help</p>
-            <p className="shadow">Contact Us</p>
+            <p className="shadow">
+              <a href="mailto:contact@atlasco.ai">Contact Us</a>
+            </p>
           </div>
           <div>
             <p>Resources</p>

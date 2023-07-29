@@ -9,10 +9,10 @@
 
 .our_services__div>h1 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
 }
 
 #our_services__img {
-  height: 25rem;
-  width: 25rem;
+  /* height: 25rem; */
+  width: 20rem;
 }

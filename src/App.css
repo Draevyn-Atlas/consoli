@@ -4,9 +4,14 @@
   background-image: url("/Background-1\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
 }
 
 .our_services__section {}
 
 .contact_form__section {}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

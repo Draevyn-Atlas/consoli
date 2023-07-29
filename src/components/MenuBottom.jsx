@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "./MenuBottom.css";
 
 const MenuBottom = () => {
@@ -12,7 +13,11 @@ const MenuBottom = () => {
         </div>
         <div className="menu_bottom_1--buttons">
           <button className="menu_bottom_1_button1">let's talk</button>
-          <button className="menu_bottom_1_button2">Our Services</button>
+          <button className="menu_bottom_1_button2">
+            <Link to="our_services__div" smooth={true} duration={500}>
+              Our Services
+            </Link>
+          </button>
         </div>
       </div>
       <div className="menubar_bottom_2"></div>

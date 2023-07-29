@@ -16,11 +16,13 @@ img {
     /* border: 5px solid green; */
     line-height: 2rem;
     margin: auto;
+    margin-left: -50px;
   }
 
   .business_headig> :first-child {
     /* background: #886c6c; */
     width: 45vw;
+    margin-bottom: 20px;
     text-align: end;
   }
 
@@ -47,12 +49,13 @@ img {
   color: whitesmoke;
   padding: 10vh 20vw;
   text-align: center;
+  font-weight: 700;
 }
 
 .tech_meet_container p {
   background: #000;
   color: whitesmoke;
-  font-size: 1.5rem;
+  font-size: 32px;
 }
 
 /* services cards */
