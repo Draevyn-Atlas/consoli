@@ -2,11 +2,23 @@ img {
   width: 100%;
 }
 
+.border_bottom {
+  width: 100%;
+  margin-top: 5%;
+  border-bottom: 1px solid #e3e3e3;
+}
+
 .business {
   display: flex;
   flex-direction: column;
   row-gap: 2.4rem;
   padding: 10vh 10vw;
+  margin-top: -62px;
+
+  .border-bottom {
+    border-bottom: 1px solid #e3e3e3;
+    width: 100%;
+  }
 
   /* border: 5px solid gray; */
   .business_headig {
@@ -22,7 +34,7 @@ img {
   .business_headig> :first-child {
     /* background: #886c6c; */
     width: 44vw;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: end;
     font-size: 30px;
   }
@@ -64,7 +76,7 @@ img {
 .services {
   padding: 50px;
   margin-top: -80px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .services_cards {
@@ -72,7 +84,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3rem;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
   .services_card {
     /* border: 2px solid gray; */
@@ -112,7 +124,136 @@ img {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+
+  .border_bottom {
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  .business {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+    padding: 10vh 10vw;
+    margin-top: -62px;
+
+    .border-bottom {
+      border-bottom: 1px solid #e3e3e3;
+      width: 100%;
+    }
+
+    /* border: 5px solid gray; */
+    .business_headig {
+      font-size: 1.5rem;
+      font-weight: 700;
+      width: 80vw;
+      /* border: 5px solid green; */
+      line-height: 2rem;
+      margin: auto;
+      margin-left: -50px;
+    }
+
+    .business_headig> :first-child {
+      /* background: #886c6c; */
+      width: 44vw;
+      /* margin-bottom: 10px; */
+      text-align: end;
+      font-size: 30px;
+    }
+
+    .business_headig> :last-child {
+      /* background: #886c6c; */
+      width: 36vw;
+      text-align: start;
+      margin-left: auto;
+      font-size: 30px;
+    }
+
+    .business_subHeading {
+      width: 55vw;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.2rem;
+      font-size: 22px;
+    }
+  }
+
+  .tech_meet_container {
+    margin-top: -80%;
+    background: #000;
+    color: whitesmoke;
+    padding: 5vh 20vw;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .tech_meet_container p {
+    background: #000;
+    color: whitesmoke;
+    font-size: 32px;
+  }
+
+  /* services cards */
+  .services {
+    padding: 50px;
+    margin-top: -80px;
+    /* margin-bottom: 30px; */
+  }
+
+  .services_cards {
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    margin-bottom: 50px;
+
+    .services_card {
+      /* border: 2px solid gray; */
+      position: relative;
+
+      .image {
+        width: 26vw;
+        margin: auto;
+        /* position: absolute; */
+      }
+
+      .services_text {
+        /* border: 2px solid green; */
+        width: 23vw;
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        padding: 25px 20px;
+        margin: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+      }
+
+      .services_text> :first-child {
+        /* border: 2px solid green; */
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+
+      .services_text> :last-child {
+        /* border: 2px solid green; */
+        font-size: 0.9rem;
+        width: 90%;
+      }
+    }
+  }
+}
+
+/* @media only screen and (max-width: 480px) {
   .business {
     .business_headig :last-child {
       width: 65vw;
@@ -126,4 +267,4 @@ img {
       width: 80vw;
     }
   }
-}
+} */

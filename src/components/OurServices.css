@@ -14,5 +14,27 @@
 
 #our_services__img {
   /* height: 25rem; */
+  margin-top: -50px;
   width: 20rem;
+}
+
+@media (max-width: 600px) {
+  .our_services__div {
+    padding: 2rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .our_services__div>h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  #our_services__img {
+    /* height: 25rem; */
+    width: 22rem;
+  }
 }

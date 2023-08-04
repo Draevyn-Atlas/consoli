@@ -1,10 +1,11 @@
 .top_hero__section {
-  height: 100vh;
+  height: 170vh;
   /* margin-top: 80px; */
 
   /* background-image: url("/Background-1\ 1.png"); */
   /* background: url("https://v.ftcdn.net/04/72/04/26/700_F_472042699_mG4yxMT57lbetcXIY7rjudcgfR181RVX_ST.mp4"); */
-  background: url("/looped_gif.gif");
+  background: url("/background-t1.gif");
+  /* background: url("https://v.ftcdn.net/06/21/48/69/700_F_621486912_7yv0tqMMFUaUg2nVxey2QREZxMhbOYHr_ST.mp4"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,11 +15,29 @@
   margin-top: -150px;
 }
 
-.our_services__section {}
-
-.contact_form__section {}
-
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 600px) {
+  .top_hero__section {
+    margin-top: -150%;
+    /* height: 150vh; */
+    /* background-image: url("/Background-1\ 1.png"); */
+    /* background: url("https://v.ftcdn.net/04/72/04/26/700_F_472042699_mG4yxMT57lbetcXIY7rjudcgfR181RVX_ST.mp4"); */
+    background: url("/looped_gif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .medium_section {
+    margin-top: -150px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }

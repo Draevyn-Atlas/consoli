@@ -1,0 +1,142 @@
+.job_container {
+  background: #000;
+  color: whitesmoke;
+  padding: 8vh 20vw;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.job_container > p {
+  background: #000;
+  color: whitesmoke;
+  font-size: 32px;
+}
+.Transfer {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.Transfer > div {
+  display: flex;
+  gap: 60px;
+}
+.Transfer > div > p {
+  font-size: 20px;
+}
+.Transfer > div > p:nth-child(1) {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.Transfer > div > p:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.Container {
+  width: 95%;
+  height: auto;
+  margin-left: 30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.Box {
+  width: 96%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.Box > div:nth-child(1) > img {
+  width: 100%;
+  margin-left: 10px;
+}
+.Box > div:nth-child(2) {
+  width: 70%;
+}
+.Container > div:nth-child(2) {
+  text-align: right;
+  margin-right: 40px;
+}
+.Container > div:nth-child(2) > button {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px) {
+  .job_container {
+    padding: 5vh 20vw;
+    background: #000;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -10px;
+  }
+  .job_container > p {
+    background: #000;
+    color: whitesmoke;
+    font-size: 32px;
+  }
+  .Transfer {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  .Transfer > div {
+    display: flex;
+    gap: 60px;
+  }
+  .Transfer > div > p {
+    font-size: 26px;
+  }
+  .Transfer > div > p:nth-child(1) {
+    font-size: 26px;
+    text-decoration: underline;
+  }
+  .Transfer > div > p:hover {
+    font-size: 26px;
+    text-decoration: underline;
+  }
+  .Container {
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .Box {
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .Box > div:nth-child(1) > img {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .Box > div:nth-child(2) {
+    width: 70%;
+  }
+  .Container > div:nth-child(2) {
+    text-align: right;
+    margin-right: 40px;
+  }
+  .Container > div:nth-child(2) > button {
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+  }
+}

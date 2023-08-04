@@ -21,7 +21,6 @@
     width: 100%; */
   background-color: black;
   color: white;
-
 }
 
 /* .bottom{
@@ -44,7 +43,6 @@
   margin-top: 20px;
 }
 
-
 .last_foot {
   height: 150px;
   width: 100%;
@@ -52,11 +50,9 @@
   color: white;
   display: flex;
   padding-top: 15px;
-
 }
 
 hr {
-
   width: 95%;
   margin-left: 70px;
 }
@@ -71,7 +67,6 @@ hr {
 
 .last_foot :nth-child(2) {
   width: 50%;
-
 }
 
 .left p {
@@ -83,14 +78,16 @@ hr {
   line-height: 30px;
 }
 
+.try {
+  font-size: 15px;
+}
+
 .shadow {
   font-size: 13px;
-
-
 }
 
 .right :nth-child(3) p.shadow {
-  width: 200px;
+  width: 205px;
   display: flex;
 }
 
@@ -103,3 +100,5 @@ hr {
   background: white;
   color: black;
 }
+
+@media (max-width: 600px) {}

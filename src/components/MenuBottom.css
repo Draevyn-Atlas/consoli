@@ -48,3 +48,5 @@
   background-color: black;
   color: #ffff;
 }
+
+@media (max-width: 600px) {}
